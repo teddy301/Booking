@@ -1,0 +1,4 @@
+%dw 2.0
+
+type auto_9e60a6df_26df_4947_a613_4f95b1aea557_Output_Variables_code = Null | String {"typeAlias": "auto_63a0fdcf-864d-44bc-973d-e09273e77f42_Output-Variables-code"}
+

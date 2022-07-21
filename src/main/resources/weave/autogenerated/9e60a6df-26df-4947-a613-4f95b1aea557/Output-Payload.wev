@@ -1,0 +1,4 @@
+%dw 2.0
+
+type auto_9e60a6df_26df_4947_a613_4f95b1aea557_Output_Payload = Array<{  flightCode: String,   price: Number,   ID?: Number,   departureDate: String,   airline: String,   fromAirportCode: String,   totalSeats?: Number,   planeType?: String,   toAirportCode: String,   emptySeats: Number,   _?: Any}>
+

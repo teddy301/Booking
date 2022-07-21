@@ -1,0 +1,70 @@
+%dw 2.0
+
+type auto_63a0fdcf_864d_44bc_973d_e09273e77f42_Output_Payload = {|
+  "0": org_mule_runtime_api_message_Message, 
+  "1": org_mule_runtime_api_message_Message_10, 
+  "2": org_mule_runtime_api_message_Message_16
+|}
+type org_mule_runtime_api_message_Message_16 = {|
+  payload: Array<com_mulesoft_training_Flight_18>, 
+  attributes: org_mule_extension_ws_api_SoapAttributes
+|} {"typeId": "org.mule.runtime.api.message.Message"}
+type org_mule_extension_ws_api_SoapAttributes = {|
+  protocolHeaders: { _?: String }, 
+  additionalTransportData: anonymousType_27
+|} {"typeAlias": "SoapAttributes",
+"typeId": "org.mule.extension.ws.api.SoapAttributes"}
+type anonymousType_27 = { _?: String }
+
+
+
+
+type com_mulesoft_training_Flight_18 = {|
+  airlineName?: String, 
+  availableSeats?: Number, 
+  departureDate?: String, 
+  destination?: String, 
+  flightCode?: String, 
+  origination?: String, 
+  planeType?: String, 
+  price?: Number
+|} {"class": "com.mulesoft.training.Flight",
+"typeId": "com.mulesoft.training.Flight"}
+
+
+
+
+type org_mule_runtime_api_message_Message_10 = {|
+  payload: Null, 
+  attributes: org_mule_extension_http_api_HttpResponseAttributes
+|} {"typeId": "org.mule.runtime.api.message.Message"}
+type org_mule_extension_http_api_HttpResponseAttributes = {|
+  statusCode: Number, 
+  reasonPhrase: String, 
+  headers: { _?: String }
+|} {"typeAlias": "HttpResponseAttributes",
+"typeId": "org.mule.extension.http.api.HttpResponseAttributes"}
+
+
+
+
+type org_mule_runtime_api_message_Message = {|
+  payload: Array<com_mulesoft_training_Flight>, 
+  attributes: Null
+|} {"typeId": "org.mule.runtime.api.message.Message"}
+type com_mulesoft_training_Flight = {|
+  airlineName?: String, 
+  availableSeats?: Number, 
+  departureDate?: String, 
+  destination?: String, 
+  flightCode?: String, 
+  origination?: String, 
+  planeType?: String, 
+  price?: Number
+|} {"class": "com.mulesoft.training.Flight",
+"typeId": "com.mulesoft.training.Flight"}
+
+
+
+
+

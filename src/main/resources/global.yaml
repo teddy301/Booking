@@ -1,0 +1,14 @@
+http:
+ port: "8082"
+ 
+ 
+training:
+  host: "mu.learn.mulesoft.com"
+  port: "80"
+  basepath: "/"
+  protocol: "HTTP"
+  
+delta:
+  wsdl: "http://localhost:9191/delta?wsdl"
+  service: "DeltaFlightsService"
+  port: "DeltaFlightsServiceImplPort"
